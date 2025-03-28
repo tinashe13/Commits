@@ -1,0 +1,15 @@
+{
+  "name": "auth-service",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "dependencies": {
+    "auth-service": "file:",
+    "cookie-parser": "^1.4.7",
+    "mongodb": "^6.15.0"
+  }
+}
