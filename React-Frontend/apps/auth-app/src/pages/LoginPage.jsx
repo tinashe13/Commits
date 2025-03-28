@@ -17,7 +17,7 @@ export default function LoginPage() {
         const role = res.user?.role;
         console.log("role is: ", role)
         console.log(res)
-        navigate(role === "0x88" ? "/admin" : "/user");
+        navigate(role === "0x88" ? window.location.href = "http://localhost:5174" : "/user");
       } else {
         setMsg(res.message || "Login failed");
       }
