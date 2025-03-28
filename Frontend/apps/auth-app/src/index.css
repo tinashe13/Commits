@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    background: url("assets/images/media/backgrounds/6.jpg") no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .authentication-basic::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(162, 174, 205, 0.5); /* purple overlay */
+    z-index: -1;
+  }
+  
